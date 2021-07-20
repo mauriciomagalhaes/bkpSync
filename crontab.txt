@@ -1,1 +1,2 @@
 00 * * * * /opt/bkpSync/bkpsync.sh
+echo "find /var/www/backup/ -type f -name '*.tar' -mtime +3 -exec rm -f {} \;" > /etc/cron.daily/rm_becape
