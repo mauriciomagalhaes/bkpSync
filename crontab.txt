@@ -1,1 +1,1 @@
-00 22 * * * /opt/bkpSync/bkpsync.sh
+00 * * * * /opt/bkpSync/bkpsync.sh
