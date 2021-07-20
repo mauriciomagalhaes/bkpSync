@@ -9,4 +9,4 @@ DSTDIR="/Backups/Asterisk/PIERRE/ITAIGARA"
 REMOTE="pierre-itaigara"
 
 
-$RCLONE -v sync --max-age 3d  $SRCDIR --exclude="*.php_original" $REMOTE:$DSTDIR
+$RCLONE -v sync --max-age 3d  $SRCDIR --exclude="*.php" $REMOTE:$DSTDIR
